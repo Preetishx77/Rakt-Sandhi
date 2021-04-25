@@ -1,7 +1,7 @@
 # Technica
 
 
-This Project is created by : Dibyanshu Mohanty & Preetish Biswal as a part of Top 15 projects of Technica'21 Hackathon.
+This Project is created by : Preetish Biswal & Dibyanshu Mohanty for a hackathon and was one of the Top 15 projects of Technica'21 Hackathon.
 
 #RAKT-SANDHI . 
 Your on-the-go Blood bank in your pocket.
