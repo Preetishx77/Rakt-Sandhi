@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <title>Rakt-Sandhi</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffe8e8;">
+    <a id="logo" class="navbar-brand" href="#"><img src="images/logo_new.png" class="logo"><strong>RAKT-SANDHI</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Blog">Blog<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Info">Gallery</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="home.html">Request For Blood</a>
+            <a class="dropdown-item" href="register.html">Register As Donor</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="contact.html">Contact Us</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button id="btn" class="btn btn-outline-danger"><img class="img-fluid" id="image1" src="images/phone.svg" alt=""> +91 90807 90807</button>
+      </form>
+    </div>
+  </nav>
+  <!-- HomePage -->
+  <section id="Front">
+    <div class="container">
+      <!-- <h1 class="Hone">Join The fastest growing community of <br><strong>BLOOD DONORS</strong></h1>
+      <h5 class="Hfive">We connect those who are in need of blood with donors within the locality using our<br>advanced geofencing technology.</h5> -->
+      <br><br>
+      <div class="buttons">
+        <button id="Sign" type="Submit" class="btn btn-light btn-lg" style="background-color: #ffe8e8;"><a href="register.html" style="text-decoration:None;color:black">Register as Donor</a></button>
+        <a href="home.html" class="btn btn-light btn-lg" role="button" id="Request" style="background-color: #ffe8e8;">Request Blood</a>
+      </div>
+    </div>
+  </section>
+  <section id="Info">
+    <div class="Middle">
+      <br><br><br>
+      <h1 style="font-family: 'Dela Gothic One', cursive; text-align:left; margin-left:300px;">WHAT WE DO!</h1>
+      <br><br><br>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Carousel_1.png" class="d-block w-100 img-fluid" alt="...">
+            <h5>Mark an urgent blood request with us by entering your blood group and location.</h5>
+          </div>
+          <div class="carousel-item Car">
+            <img src="images/Carousel_2.png" class="d-block w-100 img-fluid" alt="...">
+            <h5>Donors near you wil be notified by a push notification and the available donor with accept the reuqest.</h5>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Carousel_3.png" class="d-block w-100 img-fluid" alt="...">
+            <h5>You will contact the donor and the donor will arrive at your hospital to make the donation.</h5>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="Blog" class="py-5" style="background-color: #ffdcdc;">
+    <h2 class="py-5 px-5"><strong>BLOG</strong></h2>
+    <div class="card-deck">
+
+      <div class="card" style="background-color: #ffb4b4; margin-left: 5%;">
+        <img src="images/Blood Type Article Graph ENG.jpg" class="card-img-top img-fluid" style="height: 250.8px">
+        <div class="card-body">
+          <a href="" style="text-decoration: none; color: black;">
+            <h5 class="card-title">Importace of Blood type</h5>
+          </a>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 1 hour ago</small>
+        </div>
+      </div>
+      <div class="card" style="background-color: #ffb4b4;">
+        <img id="card2" src="images/What-is-Bombay-Blood-Group.png" class="card-img-top img-fluid" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">Bombay blood group</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 30 minutes ago</small>
+        </div>
+      </div>
+      <div class="card" style="background-color: #ffb4b4;margin-right: 5%;">
+        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/xUA7biF7n8LcAqh4bK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+        <p><a href="https://giphy.com/gifs/animation-heart-xUA7biF7n8LcAqh4bK"></a></p>
+
+        <div class="card-body">
+          <h5 class="card-title">Importance of Blood donation</h5>
+          <p class="card-text">Today, most medical care depends on a steady supply of blood from donors, as one in seven people entering the hospital need blood.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class=" text-center text-dark" style="background-color: #ffaaa7;">
+
+    <div class="container p-4 foot">
+
+      <section class="mb-4">
+
+        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+          <img src="images/facebook.png">
+        </a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><img src="images/instagram.png" alt="">
+        </a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><img src="images/twitter.png" alt="">
+        </a>
+      </section>
+
+      <section class="">
+        <form action="">
+
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2"></label>
+              </div>
+            </div>
+            <div class="col-auto">
+
+              <button type="submit" class="btn btn-outline-dark mb-4">
+                <strong>Subscribe</strong>
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="">
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"></h5>
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Bloodline . com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script>
+    if ('geolocation' in navigator) {
+      console.log('geolocation available');
+      navigator.geolocation.getCurrentPosition(position => {
+        console.log(position.coords);
+      });
+    } else {
+      console.log('geolocation not available');
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Donor Finder</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <h2><img src="images/logo_new.png" class="logo"><strong>RAKT-SANDHI</strong></h2>
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Donate</a></li>
+                        <li><a href="#search">Search Blood</a></li>
+                        <li><a href="index.html #Info">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon"
+                onclick="togglemenu()">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>DONOR<br>FINDER</h2>
+                    <p>Get Your Required Blood </p>
+                    <h4>We will help you </h4>
+                    <button type="button" id="search">Search Blood</button>
+                </div>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup-content">
+                <img src="images/gf.gif" class="controller1">
+                <i class="fa fa-times close" id="close" aria-hidden="true"></i>
+                <input type="text" placeholder="Enter your blood group ?">
+                <input type="text" placeholder="Enter your location ?">
+                <button  type="button" id="go"><a href="result.html"><i class="fa fa-search  sr" aria-hidden="true"></i></a></button>
+            </div>
+        </div>
+
+        <script>
+        document.getElementById("search").addEventListener('click',function(){
+            document.querySelector(".popup").style.display='flex';
+        })
+        document.getElementById("close").addEventListener('click',function(){
+            document.querySelector(".popup").style.display='none';
+        })
+
+        var menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="130px"
+            }
+            else
+            {
+                menuList.style.maxHeight="0px"
+            }
+        }
+    </script>
+
+    </body>
+
+</html>
