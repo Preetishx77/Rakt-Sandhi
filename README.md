@@ -7,7 +7,7 @@ This Project is created by : Preetish Biswal & Dibyanshu Mohanty for a hackathon
 Your on-the-go Blood bank in your pocket.
 
 #MOTIVE : 
-This is a user friendly , WebApp that enables the user to search for blood around his own location in case of emergency blood requirement.
+This is a user friendly , website that enables the user to search for blood around his own location in case of emergency blood requirement.
 
 #TARGET  CUSTOMER BASE:
 This app can be used by the customer in need of urgent blood requirement during Fatal accidents on highways to find a Donor of the same blood group via GoogleMap Live Tracking.
