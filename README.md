@@ -1,13 +1,13 @@
 # Technica
 
 
-This Project is created by : Preetish Biswal & Dibyanshu Mohanty for a hackathon and was one of the Top 15 projects of Technica'21 Hackathon.
+This Project is created by : Dibyanshu Mohanty & Preetish Biswal as a part of Top 15 projects of Technica'21 Hackathon.
 
 #RAKT-SANDHI . 
 Your on-the-go Blood bank in your pocket.
 
 #MOTIVE : 
-This is a user friendly , website that enables the user to search for blood around his own location in case of emergency blood requirement.
+This is a user friendly , WebApp that enables the user to search for blood around his own location in case of emergency blood requirement.
 
 #TARGET  CUSTOMER BASE:
 This app can be used by the customer in need of urgent blood requirement during Fatal accidents on highways to find a Donor of the same blood group via GoogleMap Live Tracking.
@@ -28,7 +28,7 @@ https://dibyanshu-mohanty.github.io/Technica/
 ![Carousel2](https://user-images.githubusercontent.com/72657275/114298290-44530300-9ad3-11eb-837d-d11045254bc6.png)
 ![Carousel3](https://user-images.githubusercontent.com/72657275/114298315-5d5bb400-9ad3-11eb-9a1e-48a4815895f5.png)
 ![Register](https://user-images.githubusercontent.com/72657275/114298334-72384780-9ad3-11eb-9a95-37b442435924.png)
-
+![Register2](https://user-images.githubusercontent.com/72657275/114298317-5f257780-9ad3-11eb-96ff-0a0ad26da86b.png)
 ![Form](https://user-images.githubusercontent.com/72657275/114298369-ab70b780-9ad3-11eb-8844-7c7cded5fb6f.jpeg)
 ![Blog](https://user-images.githubusercontent.com/72657275/114298338-7cf2dc80-9ad3-11eb-898c-7501e4979d4f.png)
 ![Donor_Search](https://user-images.githubusercontent.com/72657275/114298341-80866380-9ad3-11eb-8573-091333e9ff09.png)
