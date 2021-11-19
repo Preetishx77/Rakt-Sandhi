@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+}
+#navbarSupportedContent{
+  margin-left: 600px;
+}
+#btn{
+  margin-right: 100px;
+}
+#logo{
+  margin-left: 100px;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    margin:  0;
+    margin-top: 5px;
+}
+#image1{
+  width: 20%;
+}

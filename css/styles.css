@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://orthodoxtimes.com/wp-content/uploads/2020/11/donate-blood-save-a-life.jpg");
+  background-size: contain;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+nav{
+  margin: 0;
+}
+#navbarSupportedContent{
+  margin-left: 600px;
+
+}
+#btn{
+  margin-right: 100px;
+}
+#logo{
+  margin-left: 100px;
+}
+.container{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    margin:  0;
+    margin-top: 5px;
+}
+.Hone{
+  color: black;
+  margin-top: 500px;
+}
+.Hfive{
+  color: black;
+}
+#image1{
+  width: 20%;
+}
+.buttons{
+  margin-top: 300px;
+  margin-left: 400px;
+}
+ .Middle{
+  margin-top: 300px;
+  text-align: center;
+  width: 75%;
+  margin-left: 300px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#Info{
+  background-color: #FFB4B4;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.carousel{
+  width: 1000px;
+}
+#Blog{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#CarXD{
+  width: 200px;
+}
+.foot{
+  margin-left: 200px;
+}
+@media screen and (max-width: 881px) {
+  #navbarSupportedContent{
+    margin-left: 0;
+  }
+  #btn{
+    margin-right: 0;
+  }
+  #logo{
+    margin-left: 0;
+  }
+  body{
+    background-size: 100% 100%;
+  }
+  #image1{
+    width: 5%;
+  }
+  .buttons{
+    margin-left: 10px;
+  }
+  .Middle{
+    margin-left: 0;
+  }
+  .foot{
+    margin-left: 0;
+  }
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
